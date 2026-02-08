@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/sk25469/schedule/utils"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	utils.AsciiArt()
 }
